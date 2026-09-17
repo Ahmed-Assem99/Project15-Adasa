@@ -1,8 +1,12 @@
 import React from 'react'
+import AboutHero from '../components/AboutHero'
+import Values from '../components/Values'
 
 export default function Home() {
-  return (
-    <div className='bg-amber-300 text-5xl'>Home Page</div>
+  return (<>
+  <AboutHero></AboutHero>
+  <Values></Values>
+  </>
   )
 }
    
