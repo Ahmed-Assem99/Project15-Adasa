@@ -1,2 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap');
 @import 'tailwindcss';
+
+:root {
+  color-scheme: dark;
+  font-family: 'Cairo', sans-serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+  background: #000000;
+  color: #ffffff;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background: #000000;
+}
 

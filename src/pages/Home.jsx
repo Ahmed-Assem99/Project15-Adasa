@@ -1,11 +1,11 @@
-import React from 'react'
-import AboutHero from '../components/AboutHero'
-import Values from '../components/Values'
+import Hero from "../components/Hero";
+import Newsletter from "../components/Newsletter";
+
 
 export default function Home() {
   return (<>
-  <AboutHero></AboutHero>
-  <Values></Values>
+<Hero></Hero>
+<Newsletter></Newsletter>
   </>
   )
 }
