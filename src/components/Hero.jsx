@@ -27,7 +27,7 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-4xl text-center">
         {/* badge */}
-        <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-orange-500/30 bg-orange-500/5 px-5 py-2 text-sm font-semibold text-orange-500">
+        <div dir="ltr" className="mb-8 inline-flex items-center gap-2 rounded-full border border-orange-500/30 bg-orange-500/5 px-5 py-2 text-sm font-semibold text-orange-500">
           <span>مرحباً بك في عدسة</span>
           <span className="flex gap-1">
             <span className="h-1.5 w-1.5 rounded-full bg-orange-500" />

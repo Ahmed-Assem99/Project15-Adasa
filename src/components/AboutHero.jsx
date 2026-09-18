@@ -27,7 +27,7 @@ export default function AboutHero() {
 
       <div className="relative mx-auto max-w-4xl text-center">
         {/* badge */}
-        <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-orange-500/30 bg-orange-500/5 px-5 py-2 text-sm font-semibold text-orange-500">
+        <div dir="ltr" className="mb-8 inline-flex items-center gap-2 rounded-full border border-orange-500/30 bg-orange-500/5 px-5 py-2 text-sm font-semibold text-orange-500">
           <span>من نحن</span>
           <span className="flex gap-1">
             <span className="h-1.5 w-1.5 rounded-full bg-orange-500" />
@@ -49,7 +49,7 @@ export default function AboutHero() {
         </p>
 
         {/* stats */}
-        <div className="mt-14 grid grid-cols-2 gap-4 sm:grid-cols-4">
+        <div dir="ltr" className="mt-14 grid grid-cols-2 gap-4 sm:grid-cols-4">
           {stats.map(({ icon: Icon, value, label }) => (
             <div
               key={label}
