@@ -9,7 +9,7 @@ const links = [
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-neutral-800 bg-black/95 backdrop-blur-sm">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-neutral-800 bg-black/95 backdrop-blur-sm">
       <nav
         dir="rtl"
         className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4"
