@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import { Search, Aperture } from "lucide-react";
+import { Search } from "lucide-react";
+import logo from "../assets/logo-GdqARQRt.png";
 
 const links = [
   { to: "", label: "الرئيسية", end: true },
@@ -15,8 +16,12 @@ export default function Navbar() {
         className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4"
       >
         {/* logo */}
-        <div className="flex items-center gap-2">
-          <Aperture className="h-8 w-8 text-orange-500" strokeWidth={1.5} />
+        <div className="flex items-center gap-3">
+          <img
+            src={logo}
+            alt="عدسة Logo"
+            className="h-10 w-10 rounded-xl object-cover ring-1 ring-orange-500/30"
+          />
           <div className="text-right">
             <div className="text-lg font-bold text-white">عدسة</div>
             <div className="-mt-1 text-xs text-neutral-500">
